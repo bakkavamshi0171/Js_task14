@@ -1,17 +1,17 @@
-// let date = new Date();
-// console.log(date);
+let date2 = new Date();
+console.log(date2);
 
 // Task 2: Add Days to Date
 
 // - Input: Date string (e.g., "2024-08-28"), number of days to add (e.g., 3)
 // - Output: New date string (e.g., "2024-08-31")
 
-// let date = new Date("2024-12-28");
-// let newDate = date.setDate(date.getDate()+4);
-// let year = date.getFullYear();
-// let month = (date.getMonth()+ 1); // Add 1 to the month (zero-indexed)
-// let day = (date.getDate());
-// console.log(`${year}-${month}-${day}`);
+let date1 = new Date("2024-12-28");
+ let newDate = date1.setDate(date1.getDate()+4);
+let year = date1.getFullYear();
+let month = (date1.getMonth()+ 1); // Add 1 to the month (zero-indexed)
+let day = (date1.getDate());
+console.log(`${year}-${month}-${day}`);
 
 
 // Task 3: Format Date as MM/DD/YYYY
@@ -19,11 +19,11 @@
 // - Input: Date string (e.g., "2024-08-28")
 // - Output: Formatted date string (e.g., "08/28/2024");
 
-// let date = new Date();
-// let year = String(date.getFullYear()).padStart(2,0);
-// let month = String(date.getMonth()+ 1).padStart(2,0); // Add 1 to the month (zero-indexed)
-// let day = String(date.getDate()).padStart(2,0);
-// console.log(`${month}-${day}-${year}`);
+ let date3 = new Date();
+let year = String(date3.getFullYear()).padStart(2,0);
+let month = String(date3.getMonth()+ 1).padStart(2,0); // Add 1 to the month (zero-indexed)
+let day = String(date3.getDate()).padStart(2,0);
+console.log(`${month}-${day}-${year}`);
 
 // Task 4: Get Number of Days Between Dates
 
